@@ -36,12 +36,7 @@ for (i=0; i<10; i++)
 {
 
     sum=marks[i]+sum;
-    
-    avg=sum/10;
-    
+    avg=sum/10;   
 }
-
 printf("\n Sum of the numbers: %d",sum);
-
 printf("\n Average of the numbers: %d",avg);
-
