@@ -20,8 +20,8 @@ int main()
 {
 
 int marks[10],i,sum=0,avg;
-
 for (i=0; i<10; i++)
+
 {
 
     scanf("%d",&marks[i]);
@@ -31,10 +31,14 @@ for (i=0; i<10; i++)
 }
 
 for (i=0; i<10; i++)
+
 {
+
     sum=marks[i]+sum;
     avg=sum/10;   
+
 }
+
 printf("\n Sum of the numbers: %d",sum);
 
 printf("\n Average of the numbers: %d",avg);
