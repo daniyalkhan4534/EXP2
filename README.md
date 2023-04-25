@@ -16,13 +16,9 @@ Code: #include <windows.h>
 
 
 int main()
-
 {
-
 int marks[10],i,sum=0,avg;
-
 for (i=0; i<10; i++)
-
 {
 
     scanf("%d",&marks[i]);
